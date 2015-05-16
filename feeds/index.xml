@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Orlando Del Aguila Blog</title>
+ <link href="/feeds/articles.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2015-05-16T11:15:26+08:00</updated>
+ <id>/</id>
+ <author>
+   <name>PLUG &#8211; Provence Linux User Group</name>
+   <email>contact@plugfr.org</email>
+ </author>
+
+ 
+ <entry>
+   <title>Rust 1.0 釋出</title>
+   <link href="/rust/2015/05/16/rust-1.0.html"/>
+   <updated>2015-05-16T00:00:00+08:00</updated>
+   <id>/rust/2015/05/16/rust-1.0</id>
+   <content type="html">&lt;h1&gt;社群&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.meetup.com/rust-tw&quot;&gt;Rust.tw Meetup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Freenode irc: #rust.tw&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Online Judge / Playground&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://codecon.bloomberg.com/&quot;&gt;Bloomberg codecon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.rust-lang.org/&quot;&gt;play.rust&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;介紹文章&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Liigo: &lt;a href=&quot;http://blog.csdn.net/liigo/article/details/45757123&quot;&gt;为什么我说Rust是靠谱的编程语言&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Boost 核心開發者對 Rust 的 &lt;a href=&quot;https://plus.google.com/+nialldouglas/posts/AXFJRSM8u2t&quot;&gt;評價&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.evanmiller.org/a-taste-of-rust.html&quot;&gt;A Taste of Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://air.mozilla.org/rust-release-party/&quot;&gt;Rust Releast Party, Air Mozilla&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;入手 packages&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web Framework: &lt;a href=&quot;https://github.com/nickel-org/nickel.rs&quot;&gt;nickel.rs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HTTP Library: &lt;a href=&quot;https://github.com/hyperium/hyper&quot;&gt;hyper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>

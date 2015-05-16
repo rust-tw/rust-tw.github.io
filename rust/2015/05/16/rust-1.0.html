@@ -6,7 +6,7 @@
 <html lang="en" class="">
   <head>
     <meta charset="utf-8">
-    <title>Home | Svbtle Jekyll</title>
+    <title>Rust 1.0 釋出 | Svbtle Jekyll</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Orlando Del Aguils Blog">
     <link rel="canonical" href="http://orlando.delagui.la">
@@ -30,7 +30,7 @@
     
   </head>
   <body style="zoom: 1;">
-    <div class="main-container main-view">
+    <div class="main-container">
       
       <div class="mlogotype is-uppercase">
         <a href="http://rust-lang.tw">Rust 台灣</a>
@@ -40,7 +40,7 @@
         <h1 class="tag">Rust 台灣</h1>
       </a>
 
-      <div class="header-container">
+      <div class="header-container detail-view">
         <header class="main-header">
           <figure class="avatar">
             <a href="http://rust-lang.tw" 
@@ -49,35 +49,22 @@
           <h1 class="profile-name is-uppercase">
             <a href="http://rust-lang.tw">Rust 台灣</a>
           </h1>
-          <h2 class="subtitle">Rust 台灣社群</h2>
-          <ul class="profile-links">
-            <li class="twitter">
-              <a href="http://twitter.com/rustlang">
-                <span>@rustlang</span>
-              </a>
-            </li>
-            <li class="website">
-              <a href="http://rust-lang.tw">
-                <span>Rust 台灣</span>
-              </a>
-            </li>
-          </ul>
         </header>
       </div>
 
-      <div class="posts-container">
-        <span class="tag read-first is-uppercase">read this first</span>
-        <section id="posts">
-    
-      
-        <header class="post-header">
+      <div class="posts-container detail-view">
+        
+
+<header class="post-header">
   <!-- <time datetime="2015-05-16 11:15:26 +0800">May 16, 2015</time> -->
 </header>
 
-      
-      <article class="post" id="2xmmgdq2rzh1ckuifxv4i">
-  <h1 class="title"><a href="/rust/2015/05/16/rust-1.0.html">Rust 1.0 釋出</a></h1>
-
+<article class="post detail-view" id="2xmmgdq2rzh1ckuifxv4i">
+  <h1 class="title"><a href="#">Rust 1.0 釋出</a></h1>
+  <a href="#" class="anchor-icon">
+    <i class="fa fa-anchor"></i>
+    <time datetime="2015-05-16 11:15:26 +0800">May 16, 2015</time>
+  </a>
   
     <h1>社群</h1>
 
@@ -109,44 +96,61 @@
 <li>HTTP Library: <a href="https://github.com/hyperium/hyper">hyper</a></li>
 </ul>
 
-    <div class="button-container">
-      <a class="read-more button" href="/rust/2015/05/16/rust-1.0.html">Continue reading</a>
-    </div>
-    <a class="read-more is-uppercase" href="/rust/2015/05/16/rust-1.0.html">Continue →</a>
   
+  <footer class="group">
+    <p>
+      
+      
+      
+        
+      
+    </p>
+  </footer>
   
-  <hr class="article-separator">
+    <script>
+      $(function() {
+        (new Kudos({name:"kudos_"+ Math.floor(new Date().getTime() * Math.random()), articleId:"2xmmgdq2rzh1ckuifxv4i", articleTitle: "Rust 1.0 釋出", articleUrl:"/rust/2015/05/16/rust-1.0.html"})).render($("article#2xmmgdq2rzh1ckuifxv4i"));
+        (new Kudos({name:"2kudos_"+ Math.floor(new Date().getTime() * Math.random()), articleId:"2xmmgdq2rzh1ckuifxv4i", articleTitle: "Rust 1.0 釋出", articleUrl:"/rust/2015/05/16/rust-1.0.html"})).render($(".group"));
+      });
+    </script>
+  
 </article>
 
-    
-
-  
-</section>
 
       </div>
+      
+      <div class="line hide-text">Separator line</div>
 
-      <nav class="pagination" style="display: none;">
-        <span class="next">
-          <a href="/page/2" rel="next">Next&nbsp;&nbsp;&nbsp;→</a>
-        </span>
-      </nav>
+      <!-- Next article preview -->
+      <div class="next-article" style="display: none;">
+        <a href="#">
+          <p class="read-next tag is-uppercase">Read this next:</p>
+          <p class="next-article__title">Protocol and Language</p>
+          <div class="next-article__content">
+            <p>This is the second part of my series on protocol. The first part contained a lot of background information, but now we’re ready to get into what Protocol actually is. I live in a pretty unique place, the Farmhouse. It’s a... <span>Continue…</span></p>
+          </div>
+        </a>
+      </div>
+      <!-- Finish / Feature on process-->
 
-      <div class="line"></div>
+      <div class="line hide-text">Separator line</div>
 
       <div class="foot_logo">
         <a href="http://rust-lang.tw"><span class="logo"></span></a>
+      </div>
+
+      <div class="foot_logo right">
+        <a href="/"><span class="link">Full Blog >></span></a>
       </div>
 
       <div class="foot_userbar">
         <a href="#" class="bottom_tagline">
           <span>Rust 台灣</span> - Rust 台灣社群
         </a>
-        
         <a href="https://twitter.com/@rustlang" class="linkout twitter">
           <i class="fa fa-twitter"></i>
           @rustlang
         </a>
-        
         <a href="mailto:mno2@mno2.org" target="_blank" class="linkout contact">Contact</a>
       </div>
 
@@ -168,11 +172,9 @@
             <li class="website">
               <a href="http://rust-lang.tw">Rust 台灣</a>
             </li>
-            
             <li class="twitter">
               <a href="http://twitter.com/rustlang">@rustlang</a>
             </li>
-            
             <li class="email">
               <a href="mailto:mno2@mno2.org">Contact</a>
             </li>
