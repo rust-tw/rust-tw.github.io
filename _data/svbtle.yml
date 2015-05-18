@@ -1,0 +1,13 @@
+---
+subtitle: "Rust 台灣社群"
+profile_url: http://rust-lang.tw
+profile_name: Rust 台灣
+website_url: http://rust-lang.tw
+website_url_text: Rust Taiwan
+website_url_about: http://fanzy-blog.com/about
+website_name: Rust 台灣
+twitter: rustlang
+email_with_subject: mailto:mno2@mno2.org
+
+# Enable kudos widget
+enable_kudos: false

@@ -1,0 +1,29 @@
+---
+layout: post
+title: Rust 1.0 釋出
+date: May 16, 2015
+category: rust
+customid: 2xmmgdq2rzh1ckuifxv4i
+---
+
+# 社群 
+
+* [Rust.tw Meetup](http://www.meetup.com/rust-tw)
+* Freenode irc: #rust.tw
+
+# Online Judge / Playground
+* [Bloomberg codecon](http://codecon.bloomberg.com/)
+* [play.rust](https://play.rust-lang.org/)
+
+# 介紹文章
+
+* Liigo: [为什么我说Rust是靠谱的编程语言](http://blog.csdn.net/liigo/article/details/45757123)
+* Boost 核心開發者對 Rust 的 [評價](https://plus.google.com/+nialldouglas/posts/AXFJRSM8u2t)
+* [A Taste of Rust](http://www.evanmiller.org/a-taste-of-rust.html)
+* [Rust Releast Party, Air Mozilla](https://air.mozilla.org/rust-release-party/)
+
+
+# 入手 packages
+
+* Web Framework: [nickel.rs](https://github.com/nickel-org/nickel.rs)
+* HTTP Library: [hyper](https://github.com/hyperium/hyper)
