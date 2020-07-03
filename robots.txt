@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rust-lang.tw/sitemap.xml
