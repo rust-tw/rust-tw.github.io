@@ -20,6 +20,7 @@ title = "Rust Taiwan Community"
 author = { name = "Rust Taiwan" }
 iam = "Welcome to"
 links = [
+    { title = "Matrix 群組", url = "https://matrix.to/#/#rust-lang.tw:matrix.org", icon = "matrix-org" },
     { title = "Telegram 群組", url = "https://t.me/rust_tw", icon = "telegram" },
     { title = "Facebook 群組", url = "https://www.facebook.com/groups/857846870916793/", icon = "facebook" },
     { title = "GitHub", url = "https://github.com/rust-tw/", icon = "github" },
