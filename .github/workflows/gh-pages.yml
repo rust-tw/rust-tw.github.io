@@ -1,4 +1,4 @@
-name: github pages
+name: Deploy
 
 on:
   push:
@@ -7,18 +7,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
         with:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Zola
-        run: wget -q -O - "https://github.com/getzola/zola/releases/download/v0.11.0/zola-v0.11.0-x86_64-unknown-linux-gnu.tar.gz" | tar xzf -
-
-      - name: Build
-        run: ./zola build
+      - uses: ./.github/actions/zola-build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
