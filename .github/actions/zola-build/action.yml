@@ -1,0 +1,7 @@
+name: zola-build
+description: build website with zola
+runs:
+  using: docker
+  image: docker://ghcr.io/getzola/zola:v0.22.1
+  args:
+    - build
